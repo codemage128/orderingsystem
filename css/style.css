@@ -1,0 +1,186 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F2F2F2 url("../images/palmleafs.png") no-repeat scroll center top;
+}
+
+.navbar-nav {
+	float: left;
+	margin: 0;
+}
+.navbar-nav > li {
+	float: left;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-right {
+	float: right !important;
+	margin-right: -15px;
+}
+.navbar-right ~ .navbar-right {
+	margin-right: 0;
+}
+
+.page-content {
+	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+	margin: 0 auto;
+	min-height: 100%;
+	padding:20px 15px;
+	border: 1px solid #ccc;
+	background:#fefefe;
+}
+@media (min-width: 768px) {
+  .page-content {
+    margin: 20px auto;
+  }
+}
+
+.menu-item {
+	box-shadow: 1px 1px 10px rgba(0,0,0,.15);
+	margin-bottom:20px;
+	border: 1px solid #ccc;
+}
+.menu-item > .picture {
+	overflow:hidden;
+	position: relative;
+}
+.menu-item > .picture > .photo {
+	width:100%;
+}
+.menu-item > .picture > .rating {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.menu-item > .detail {
+	padding: 10px 15px;
+	background: #F2F2F2 ;
+}
+.menu-item > .detail > a {
+	margin-top:8px;
+}
+@media (min-width: 768px) {
+  .menu-item > .detail > a {
+    margin-top:10px;
+  }
+}
+.menu-item > .detail > .name {
+	font-size:12pt;
+	font-weight:bold;
+}
+@media (min-width: 768px) {
+  .menu-item > .detail > .name {
+    font-size:14pt;
+  }
+}
+
+.menu-order {
+	border-radius: 5px;
+	border: 1px solid #cacaca;
+	padding:10px;
+	position:relative;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.menu-order > .photo {
+	width:100%;
+	position:relative;
+}
+.menu-order > .action {
+	border-radius: 5px;
+	background:rgba(255,255,255,.9);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	display:none;
+	position:absolute;
+	text-align:center;
+	vertical-align:middle;
+}
+.menu-order > .action > .btn {
+	margin-top:100px;
+}
+
+.search-box {
+	width:300px;
+	position:fixed;
+	top:0;
+	left:0;
+	opacity:.3;
+	z-index:3000;
+	background:#fefefe;
+	padding:10px;
+	border:1px solid #f2f2f2;
+	transition: all 0.5s ease 0s;
+}
+.search-box:hover {
+	opacity: 1;
+}
+.search-box label {
+	width:70px;
+	text-align:right;
+	margin-top:5px;
+	margin-right:10px;
+	float:left;
+}
+.search-box select, .search-box .price{
+	float:left;
+	width:190px;
+}
+@media (max-width: 768px) {
+  .search-box {
+	width:100%;
+	opacity:1;
+	position:relative;
+	margin-bottom:20px;
+  }
+}
+
+.no-padding {padding:0;}
+.mt10{margin-top:10px;}
+.left {float:left;}
+.right {float:right;}
+a,a:hover,a:focus,a:active{text-decoration:none;}
+
+.price {
+	color:#72BF66;
+	font-size:14pt;
+	font-weight:bold;
+}
+/*
+ * Custom buttons
+ */
+.orderbtn {
+	border: 2px solid #EBEBEB;
+	padding: 5px 15px;
+	background: #FFF none repeat scroll 0% 0%;
+	color: #999;
+	border-radius: 4px;
+	transition: all 0.2s ease 0s;
+}
+.orderbtn:hover{
+	border:2px solid #006699;
+	color:#fff;
+	background:#006699;
+}
+
+/*his*/
+.menu-order-show {
+	border-radius: 5px;
+	border: 1px solid #cacaca;
+	padding:10px;
+	position:relative;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.menu-order-show > .photo {
+	width:100%;
+	position:relative;
+}
